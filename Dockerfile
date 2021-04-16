@@ -9,6 +9,10 @@ RUN apt update && apt install -y scrcpy
 COPY libfm.conf /root/.config/libfm/libfm.conf
 COPY scrcpy.desktop /root/Desktop/scrcpy.desktop
 COPY fix-resolution.desktop /root/Desktop/fix-resolution.desktop
+COPY start-dingding.desktop /root/Desktop/start-dingding.desktop
+COPY stop-dingding.desktop /root/Desktop/stop-dingding.desktop
+COPY start-dingding.sh /root/start-dingding.sh
+COPY stop-dingding.sh /root/stop-dingding.sh
 COPY adb.conf /etc/supervisor/conf.d/adb.conf
 COPY adb.sh /root/adb.sh
 

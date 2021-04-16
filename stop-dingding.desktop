@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=stop-dingding
+Comment=A sample application
+Exec=bash /root/stop-dingding.sh
+Terminal=false
