@@ -9,4 +9,8 @@ RUN apt update && apt install -y scrcpy
 COPY libfm.conf /root/.config/libfm/libfm.conf
 COPY scrcpy.desktop /root/Desktop/scrcpy.desktop
 COPY fix-resolution.desktop /root/Desktop/fix-resolution.desktop
+COPY adb.conf /etc/supervisor/conf.d/adb.conf
+COPY adb.sh /root/adb.sh
 
+ADD insecure_shared_adbkey /root/.android/adbkey
+ADD insecure_shared_adbkey.pub /root/.android/adbkey.pub

@@ -3,5 +3,5 @@ Type=Application
 Encoding=UTF-8
 Name=scrcpy
 Comment=A sample application
-Exec=/usr/bin/scrcpy
+Exec=/usr/bin/scrcpy -m 480 -b 128k
 Terminal=false
