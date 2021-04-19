@@ -11,8 +11,10 @@ COPY scrcpy.desktop /root/Desktop/scrcpy.desktop
 COPY fix-resolution.desktop /root/Desktop/fix-resolution.desktop
 COPY start-dingding.desktop /root/Desktop/start-dingding.desktop
 COPY stop-dingding.desktop /root/Desktop/stop-dingding.desktop
+COPY restart-adbd.desktop /root/Desktop/restart-adbd.desktop
 COPY start-dingding.sh /root/start-dingding.sh
 COPY stop-dingding.sh /root/stop-dingding.sh
+COPY restart-adbd.sh /root/restart-adbd.sh
 COPY adb.conf /etc/supervisor/conf.d/adb.conf
 COPY adb.sh /root/adb.sh
 

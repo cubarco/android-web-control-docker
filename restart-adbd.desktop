@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=restart-adbd
+Comment=A sample application
+Exec=bash /root/restart-adbd.sh
+Terminal=false
